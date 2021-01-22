@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		961E54ED25BA8D07009D0F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E54EC25BA8D07009D0F59 /* AppDelegate.swift */; };
 		961E54EF25BA8D07009D0F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E54EE25BA8D07009D0F59 /* SceneDelegate.swift */; };
-		961E54F125BA8D07009D0F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E54F025BA8D07009D0F59 /* ViewController.swift */; };
-		961E54F425BA8D07009D0F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E54F225BA8D07009D0F59 /* Main.storyboard */; };
 		961E54F625BA8D09009D0F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E54F525BA8D09009D0F59 /* Assets.xcassets */; };
-		961E54F925BA8D09009D0F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E54F725BA8D09009D0F59 /* LaunchScreen.storyboard */; };
+		961E551325BA8DEB009D0F59 /* UIButton+Flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551125BA8DEB009D0F59 /* UIButton+Flat.swift */; };
+		961E551425BA8DEB009D0F59 /* UITextField+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551225BA8DEB009D0F59 /* UITextField+Icons.swift */; };
+		961E551E25BA8E25009D0F59 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551B25BA8E25009D0F59 /* BarChartViewController.swift */; };
+		961E551F25BA8E25009D0F59 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551C25BA8E25009D0F59 /* LineChartViewController.swift */; };
+		961E552025BA8E25009D0F59 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551D25BA8E25009D0F59 /* PieChartViewController.swift */; };
+		961E552425BA8E8F009D0F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E552325BA8E8F009D0F59 /* Main.storyboard */; };
+		961E552725BA8EA3009D0F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E552625BA8EA3009D0F59 /* LaunchScreen.storyboard */; };
+		961E552C25BA8EEC009D0F59 /* NUCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 961E552B25BA8EEC009D0F59 /* NUCharts */; };
+		961E553025BA8F70009D0F59 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 961E552E25BA8F70009D0F59 /* README.md */; };
+		961E553125BA8F70009D0F59 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 961E552F25BA8F70009D0F59 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		961E54E925BA8D07009D0F59 /* NUCharts Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NUCharts Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961E54EC25BA8D07009D0F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		961E54EE25BA8D07009D0F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		961E54F025BA8D07009D0F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		961E54F325BA8D07009D0F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		961E54F525BA8D09009D0F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		961E54F825BA8D09009D0F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961E54FA25BA8D09009D0F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961E551125BA8DEB009D0F59 /* UIButton+Flat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Flat.swift"; sourceTree = "<group>"; };
+		961E551225BA8DEB009D0F59 /* UITextField+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Icons.swift"; sourceTree = "<group>"; };
+		961E551B25BA8E25009D0F59 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		961E551C25BA8E25009D0F59 /* LineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		961E551D25BA8E25009D0F59 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		961E552325BA8E8F009D0F59 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		961E552625BA8EA3009D0F59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961E552E25BA8F70009D0F59 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		961E552F25BA8F70009D0F59 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961E552C25BA8EEC009D0F59 /* NUCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,8 @@
 		961E54E025BA8D07009D0F59 = {
 			isa = PBXGroup;
 			children = (
+				961E552F25BA8F70009D0F59 /* LICENSE */,
+				961E552E25BA8F70009D0F59 /* README.md */,
 				961E54EB25BA8D07009D0F59 /* NUCharts Demo */,
 				961E54EA25BA8D07009D0F59 /* Products */,
 			);
@@ -57,14 +73,42 @@
 			isa = PBXGroup;
 			children = (
 				961E54EC25BA8D07009D0F59 /* AppDelegate.swift */,
-				961E54EE25BA8D07009D0F59 /* SceneDelegate.swift */,
-				961E54F025BA8D07009D0F59 /* ViewController.swift */,
-				961E54F225BA8D07009D0F59 /* Main.storyboard */,
 				961E54F525BA8D09009D0F59 /* Assets.xcassets */,
-				961E54F725BA8D09009D0F59 /* LaunchScreen.storyboard */,
+				961E550625BA8D8C009D0F59 /* Extensions */,
+				961E550725BA8D94009D0F59 /* Storyboards */,
+				961E550825BA8D9C009D0F59 /* View Controllers */,
+				961E54EE25BA8D07009D0F59 /* SceneDelegate.swift */,
 				961E54FA25BA8D09009D0F59 /* Info.plist */,
 			);
 			path = "NUCharts Demo";
+			sourceTree = "<group>";
+		};
+		961E550625BA8D8C009D0F59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				961E551125BA8DEB009D0F59 /* UIButton+Flat.swift */,
+				961E551225BA8DEB009D0F59 /* UITextField+Icons.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		961E550725BA8D94009D0F59 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				961E552625BA8EA3009D0F59 /* LaunchScreen.storyboard */,
+				961E552325BA8E8F009D0F59 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		961E550825BA8D9C009D0F59 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				961E551B25BA8E25009D0F59 /* BarChartViewController.swift */,
+				961E551C25BA8E25009D0F59 /* LineChartViewController.swift */,
+				961E551D25BA8E25009D0F59 /* PieChartViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +127,9 @@
 			dependencies = (
 			);
 			name = "NUCharts Demo";
+			packageProductDependencies = (
+				961E552B25BA8EEC009D0F59 /* NUCharts */,
+			);
 			productName = "NUCharts Demo";
 			productReference = 961E54E925BA8D07009D0F59 /* NUCharts Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +157,9 @@
 				Base,
 			);
 			mainGroup = 961E54E025BA8D07009D0F59;
+			packageReferences = (
+				961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */,
+			);
 			productRefGroup = 961E54EA25BA8D07009D0F59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +174,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961E54F925BA8D09009D0F59 /* LaunchScreen.storyboard in Resources */,
+				961E552725BA8EA3009D0F59 /* LaunchScreen.storyboard in Resources */,
 				961E54F625BA8D09009D0F59 /* Assets.xcassets in Resources */,
-				961E54F425BA8D07009D0F59 /* Main.storyboard in Resources */,
+				961E553025BA8F70009D0F59 /* README.md in Resources */,
+				961E552425BA8E8F009D0F59 /* Main.storyboard in Resources */,
+				961E553125BA8F70009D0F59 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961E54F125BA8D07009D0F59 /* ViewController.swift in Sources */,
+				961E551425BA8DEB009D0F59 /* UITextField+Icons.swift in Sources */,
+				961E551F25BA8E25009D0F59 /* LineChartViewController.swift in Sources */,
+				961E551325BA8DEB009D0F59 /* UIButton+Flat.swift in Sources */,
 				961E54ED25BA8D07009D0F59 /* AppDelegate.swift in Sources */,
 				961E54EF25BA8D07009D0F59 /* SceneDelegate.swift in Sources */,
+				961E552025BA8E25009D0F59 /* PieChartViewController.swift in Sources */,
+				961E551E25BA8E25009D0F59 /* BarChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		961E54F225BA8D07009D0F59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				961E54F325BA8D07009D0F59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		961E54F725BA8D09009D0F59 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				961E54F825BA8D09009D0F59 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		961E54FB25BA8D09009D0F59 /* Debug */ = {
@@ -339,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DarthXoc/NUCharts.git";
+			requirement = {
+				branch = spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		961E552B25BA8EEC009D0F59 /* NUCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */;
+			productName = NUCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 961E54E125BA8D07009D0F59 /* Project object */;
 }

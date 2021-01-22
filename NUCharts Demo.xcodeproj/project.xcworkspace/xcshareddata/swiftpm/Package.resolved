@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NUCharts",
+        "repositoryURL": "https://github.com/DarthXoc/NUCharts.git",
+        "state": {
+          "branch": null,
+          "revision": "a71b11f2230d834b493e439eca159cc0d99f63f8",
+          "version": "3.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

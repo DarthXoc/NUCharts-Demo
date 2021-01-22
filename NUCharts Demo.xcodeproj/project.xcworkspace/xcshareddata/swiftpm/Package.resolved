@@ -5,9 +5,9 @@
         "package": "NUCharts",
         "repositoryURL": "https://github.com/DarthXoc/NUCharts.git",
         "state": {
-          "branch": "spm",
-          "revision": "fbd6098df81c2d5c37dc7c4e7c3afdef9452ec2d",
-          "version": null
+          "branch": null,
+          "revision": "a71b11f2230d834b493e439eca159cc0d99f63f8",
+          "version": "3.0.1"
         }
       }
     ]

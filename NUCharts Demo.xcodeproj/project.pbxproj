@@ -17,9 +17,9 @@
 		961E552025BA8E25009D0F59 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E551D25BA8E25009D0F59 /* PieChartViewController.swift */; };
 		961E552425BA8E8F009D0F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E552325BA8E8F009D0F59 /* Main.storyboard */; };
 		961E552725BA8EA3009D0F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E552625BA8EA3009D0F59 /* LaunchScreen.storyboard */; };
-		961E552C25BA8EEC009D0F59 /* NUCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 961E552B25BA8EEC009D0F59 /* NUCharts */; };
 		961E553025BA8F70009D0F59 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 961E552E25BA8F70009D0F59 /* README.md */; };
 		961E553125BA8F70009D0F59 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 961E552F25BA8F70009D0F59 /* LICENSE */; };
+		961E553725BAF14F009D0F59 /* NUCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 961E553625BAF14F009D0F59 /* NUCharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961E552C25BA8EEC009D0F59 /* NUCharts in Frameworks */,
+				961E553725BAF14F009D0F59 /* NUCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			);
 			name = "NUCharts Demo";
 			packageProductDependencies = (
-				961E552B25BA8EEC009D0F59 /* NUCharts */,
+				961E553625BAF14F009D0F59 /* NUCharts */,
 			);
 			productName = "NUCharts Demo";
 			productReference = 961E54E925BA8D07009D0F59 /* NUCharts Demo.app */;
@@ -158,7 +158,7 @@
 			);
 			mainGroup = 961E54E025BA8D07009D0F59;
 			packageReferences = (
-				961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */,
+				961E553525BAF14F009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */,
 			);
 			productRefGroup = 961E54EA25BA8D07009D0F59 /* Products */;
 			projectDirPath = "";
@@ -378,20 +378,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */ = {
+		961E553525BAF14F009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/DarthXoc/NUCharts.git";
 			requirement = {
-				branch = spm;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		961E552B25BA8EEC009D0F59 /* NUCharts */ = {
+		961E553625BAF14F009D0F59 /* NUCharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 961E552A25BA8EEC009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */;
+			package = 961E553525BAF14F009D0F59 /* XCRemoteSwiftPackageReference "NUCharts" */;
 			productName = NUCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
